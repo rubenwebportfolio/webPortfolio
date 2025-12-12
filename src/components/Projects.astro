@@ -1,0 +1,81 @@
+---
+const { textProjects } = Astro.props;
+---
+
+<div class="pt-10">
+  <div class="socialStructure">
+    <h1 class="projectTitle">
+      {textProjects.projects.title}
+    </h1>
+    <div class="socialStructureChild ">
+      <div
+        class="projectSection max-w-2xl"
+      >
+        <img
+          src="/webUventic.webp"
+          class="projectImg"
+          alt={textProjects.altImage.projectImg1}
+        />
+        <article class="mx-6 my-7 text-left ">
+          <p class="font-bold mb-3">UVENTIC</p>
+          <p class="mb-3 max-w-2xl">
+            {textProjects.projects.project1}
+          </p>
+          <div class="projectView">
+            <span class="projectContent">
+              Astro
+            </span>
+            <span class="projectContent">
+              Tailwind CSS
+            </span>
+            <span class="projectContent">
+              TypeScript
+            </span>
+            <span class="projectContent">
+              Sanity
+            </span>
+          </div>
+          <a href="https://uventic.com/">
+            <span
+              class="bg-green-700 text-white rounded-sm px-3 py-1 hover:bg-green-600"
+              >{textProjects.projects.website}</span
+            >
+          </a>
+        </article>
+      </div>
+
+      <div
+        class="projectSection max-w-2xl"
+      >
+        <img
+          src="/webFrostcube.webp"
+          class="projectImg"
+          alt={textProjects.altImage.projectImg2}
+        />
+        <article class="mx-6 my-7 text-left ">
+          <p class="font-bold mb-3">FROSTCUBE GAMES</p>
+          <p class="mb-3 max-w-2xl">
+            {textProjects.projects.project2}
+          </p>
+          <div class="projectView">
+            <span class="projectContent">
+              Astro
+            </span>
+            <span class="projectContent">
+              Tailwind CSS
+            </span>
+            <span class="projectContent">
+              TypeScript
+            </span>
+          </div>
+          <a href="https://frostcubegames.com/">
+            <span
+              class="projectWebsite"
+              >{textProjects.projects.website}</span
+            >
+          </a>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

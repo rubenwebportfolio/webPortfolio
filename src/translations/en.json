@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Portfolio Rubén Pérez",
+    "description": "Portfolio Rubén Pérez, web developer"
+  },
+  "presentation": {
+    "myName": "Hi, I'm Rubén Pérez",
+    "description": "Front-end web developer",
+    "myProjects": "View my work",
+    "tagline": "Front-end developer specializing in creating fast, accessible, and modern websites using current technologies."
+  },
+  "header": {
+    "one": "Presentation",
+    "two": "Projects",
+    "three": "Skills",
+    "four": "Contact"
+  },
+  "projects": {
+    "title": "Proyects",
+    "project1": "Website designed for a brand of crafts and custom vinyls.",
+    "project2": "Official website for an independent video game development studio.",
+    "website": "View page"
+  },
+  "skills": {
+    "title": "Technical skills",
+    "subtitle1": "Main technologies",
+    "subtitle2": "In learning",
+    "subtitle3": "Tools"
+  },
+  "contact": {
+    "title": "Will we work together?",
+    "subtitle": "If you need a modern, fast, and optimized website, or are looking to collaborate on a web development project, I'd be happy to help.",
+    "send": "Send message"
+  },
+  "copyright": {
+    "subtitle": "All rights reserved"
+  },
+  "altImage": {
+    "projectImg1": "Image from Uventic website",
+    "projectImg2": "Image from Frostcube Games website"
+  },
+  "ariaLine": {
+    "github": "Link to go to GitHub",
+    "email": "Link to go to the email",
+    "linkedin": "Link to go to LinkedIn"
+  }
+}

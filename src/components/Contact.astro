@@ -1,0 +1,22 @@
+---
+const { textContact } = Astro.props;
+---
+
+<div class="mt-10 socialStructure">
+  <h1 class="mb-5 font-bold lg:text-3xl text-xl">
+    {textContact.contact.title}
+  </h1>
+
+  <p class="contactSubtitle">
+    {textContact.contact.subtitle}
+  </p>
+
+  <p class="contactButton">inforubentrabajos@gmail.com</p>
+
+  <a
+    href="mailto:tu.inforubentrabajos@gmail.com"
+    class="buttonsCardContent lg:text-base text-lg"
+  >
+    {textContact.contact.send}
+  </a>
+</div>

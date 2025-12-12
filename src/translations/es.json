@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "title": "Portfolio Rubén Pérez",
+    "description": "Portfolio Rubén Pérez, desarrollador web"
+  },
+  "presentation": {
+    "myName": "Hola, Soy Rubén Pérez",
+    "description": "Desarrollador Web Front-End",
+    "myProjects": "Ver mi trabajo",
+    "tagline": "Desarrollador front-end especializado en crear sitios web rápidos, accesibles y modernos con tecnologías actuales."
+  },
+  "header": {
+    "one": "Presentación",
+    "two": "Proyectos",
+    "three": "Habilidades",
+    "four": "Contacto"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "project1": "Sitio web diseñado para una marca de artesanía y vinilos personalizados.",
+    "project2": "Sitio web oficial para un estudio independiente de desarrollo de videojuegos.",
+    "website": "Ver página"
+  },
+  "skills": {
+    "title": "Habilidades técnicas",
+    "subtitle1": "Tecnologías principales",
+    "subtitle2": "En aprendizaje",
+    "subtitle3": "Herramientas"
+  },
+  "contact": {
+    "title": "¿Trabajamos juntos?",
+    "subtitle": "Si necesitas un sitio web moderno, rápido y optimizado o buscas colaborar en un proyecto de desarrollo web, estaré encantado de ayudarte.",
+    "send": "Enviar mensaje"
+  },
+  "copyright": {
+    "subtitle": "Todos los derechos reservados"
+  },
+  "altImage": {
+    "projectImg1": "Imagen de Página web Uventic",
+    "projectImg2": "Imagen de Página web Frostcube Games"
+  },
+  "ariaLine": {
+    "github": "Enlace para ir a GitHub",
+    "email": "Enlace para ir al correo",
+    "linkedin": "Enlace para ir a LinkedIn"
+  }
+}

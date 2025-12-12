@@ -1,11 +1,41 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Footer from "../components/Footer.astro";
+import Contact from "../components/Contact.astro";
+import Header from "../components/Header.astro";
+import Presentation from "../components/Presentation.astro";
+import Projects from "../components/Projects.astro";
+import Skills from "../components/Skills.astro";
+
+import pageScript from "/js/indexPageScript.js?url";
+//import pageScript from "../scriptsTs/indexPageScript.ts?url";
+
+import en from "../translations/en.json";
 ---
 
-<Layout>
-	<Welcome />
+<Layout lang="en" textMeta={en}>
+  <header>
+    <Header textHeader={en} />
+  </header>
+  <main>
+    <section id="presentacion">
+      <Presentation textPresentation={en} />
+    </section>
+    <section id="proyectos">
+      <Projects textProjects={en} />
+    </section>
+
+    <section id="habilidades">
+      <Skills textSkills={en} />
+    </section>
+    <section id="contacto">
+      <Contact textContact={en} />
+    </section>
+  </main>
+  <footer>
+    <Footer textFooter={en} />
+  </footer>
 </Layout>
+
+<script type="module" src={pageScript}></script>

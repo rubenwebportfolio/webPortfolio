@@ -1,0 +1,33 @@
+---
+const { textFooter } = Astro.props;
+---
+
+<div class="mt-10 footerBar">
+  <div class="socialLine mt-5">
+    <div class="socialSize">
+      <img class="" src="/githubImage.webp" alt="GitHub logo" loading="lazy" />
+
+      <a
+        class="socialLink"
+        href="https://github.com/rubenwebportfolio"
+        aria-label={textFooter.ariaLine.github}></a>
+    </div>
+    <div class="socialSize">
+      <img class="" src="/emailImage.webp" alt="Email logo" loading="lazy" />
+      <a
+        class="socialLink"
+        href="mailto:inforubentrabajos@gmail.com"
+        aria-label={textFooter.ariaLine.email}></a>
+    </div>
+    <div class="socialSize">
+      <img class="" src="/linkedin.webp" alt="LinkedIn logo" loading="lazy" />
+      <a
+        class="socialLink"
+        href="https://www.linkedin.com/in/ruben-perez-lara/"
+        aria-label={textFooter.ariaLine.linkedin}></a>
+    </div>
+  </div>
+  <p class="lg:mt-0 mt-5">© 2025 Rubén Pérez</p>
+
+  <p class="mt-4">{textFooter.copyright.subtitle}</p>
+</div>

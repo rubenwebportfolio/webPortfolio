@@ -1,0 +1,79 @@
+---
+const { textHeader } = Astro.props;
+---
+
+<div class="videoStructure">
+  <video
+    class="videoView hidden md:block"
+    autoplay
+    muted
+    loop
+    preload="none"
+    poster="/pcCap.webp"
+    playsinline
+  >
+    <source src="/pcIntro.mp4" type="video/mp4" />
+  </video>
+
+  <video
+    class="videoView block md:hidden"
+    autoplay
+    muted
+    loop
+    preload="none"
+    poster="/phoneCap.webp"
+    playsinline
+  >
+    <source src="/phoneIntro.mp4" type="video/mp4" />
+  </video>
+
+  <div class="videoContent">
+    <h1 class="headerTitle">{textHeader.presentation.myName}</h1>
+    <p class="videoTitle">{textHeader.presentation.description}</p>
+    <a href="#presentation">
+      <p class="buttonsCardContent2 mt-5">
+        {textHeader.presentation.myProjects}
+      </p>
+    </a>
+    <img class="headerImg2" src="/arrowDown.webp" alt="" id="presentation" />
+  </div>
+</div>
+
+<nav id="nav" class="navbarStructure opacity-0" aria-label="Secciones">
+  <div class="navbarView">
+    <div class="navbarContent">
+      <a href="#" class="navbarImgLeft lg:block hidden">Rubén Pérez</a>
+
+      <ul class="navbarUl lg:mr-7">
+        <li class="lg:block hidden">
+          <a data-nav="presentacion" href="#presentacion" class="navbarHover"
+            >{textHeader.header.one}</a
+          >
+        </li>
+        <li class="">
+          <a data-nav="proyectos" href="#proyectos" class="navbarHover"
+            >{textHeader.header.two}</a
+          >
+        </li>
+        <li class="">
+          <a data-nav="habilidades" href="#habilidades" class="navbarHover"
+            >{textHeader.header.three}</a
+          >
+        </li>
+        <li class="">
+          <a data-nav="contacto" href="#contacto" class="navbarHover"
+            >{textHeader.header.four}</a
+          >
+        </li>
+      </ul>
+      <ul class="navbarUl">
+        <li class="">
+          <a href="/" class="navbarHover lg:font-normal font-bold">ENG</a>
+        </li>
+        <li class="">
+          <a href="/es" class="navbarHover lg:font-normal font-bold">ES</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

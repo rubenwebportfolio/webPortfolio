@@ -1,22 +1,29 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+import "../styles/global.css";
+const { lang = "en", textMeta } = Astro.props;
+---
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+
+    <link rel="icon" href="/favicon.ico" type="image/ico" sizes="32x32" />
+    <link
+      rel="icon"
+      href="/favicon.ico"
+      type="image/ico"
+      sizes="198x198"
+    />
+
+    <title>{textMeta.meta.title}</title>
+    <meta name="description" content={textMeta.meta.description} />
+  </head>
+  <body class="relative min-h-[100svh]">
+    <div class="relative z-10">
+      <slot />
+    </div>
+  </body>
+</html>

@@ -1,14 +1,19 @@
 {
   "name": "webportfolio",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
+    "build:client": "esbuild src/scriptsTs/**/*.ts --bundle --format=esm --outdir=public/js --sourcemap --minify",
+    "build": "npm run build:client && astro build",
     "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.15.9"
+    "@tailwindcss/vite": "^4.1.17",
+    "astro": "^5.15.9",
+    "tailwindcss": "^4.1.17"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.0"
   }
 }
