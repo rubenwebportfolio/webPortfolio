@@ -17,7 +17,7 @@
 }
 
 .headerTitle {
-    @apply text-2xl lg:text-4xl text-white font-bold mt-60
+    @apply text-2xl lg:text-4xl text-white font-bold mt-10
 }
 
 .headerImg2 {
