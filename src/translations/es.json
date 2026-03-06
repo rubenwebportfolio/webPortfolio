@@ -19,6 +19,7 @@
     "title": "Proyectos",
     "project1": "Sitio web diseñado para una marca de artesanía y vinilos personalizados.",
     "project2": "Sitio web oficial para un estudio independiente de desarrollo de videojuegos.",
+    "project3": "Sitio web corporativo para Metalhmur, empresa especializada en estructuras metálicas.",
     "website": "Ver página"
   },
   "skills": {
@@ -37,7 +38,8 @@
   },
   "altImage": {
     "projectImg1": "Imagen de Página web Uventic",
-    "projectImg2": "Imagen de Página web Frostcube Games"
+    "projectImg2": "Imagen de Página web Frostcube Games",
+    "projectImg3": "Imagen de Página web Metalhmur"
   },
   "ariaLine": {
     "github": "Enlace para ir a GitHub",

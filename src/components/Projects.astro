@@ -18,7 +18,7 @@ const { textProjects } = Astro.props;
         />
         <article class="mx-6 my-7 text-left ">
           <p class="font-bold mb-3">UVENTIC</p>
-          <p class="mb-3 max-w-xl">
+          <p class="mb-3 max-w-xl h-20">
             {textProjects.projects.project1}
           </p>
           <div class="projectView">
@@ -54,7 +54,7 @@ const { textProjects } = Astro.props;
         />
         <article class="mx-6 my-7 text-left ">
           <p class="font-bold mb-3">FROSTCUBE GAMES</p>
-          <p class="mb-3 max-w-xl">
+          <p class="mb-3 max-w-xl h-20">
             {textProjects.projects.project2}
           </p>
           <div class="projectView">
@@ -69,6 +69,39 @@ const { textProjects } = Astro.props;
             </span>
           </div>
           <a href="https://frostcubegames.com/">
+            <span
+              class="projectWebsite"
+              >{textProjects.projects.website}</span
+            >
+          </a>
+        </article>
+      </div>
+
+      <div
+        class="projectSection max-w-xl"
+      >
+        <img
+          src="/webMetalhmur.webp"
+          class="projectImg"
+          alt={textProjects.altImage.projectImg3}
+        />
+        <article class="mx-6 my-7 text-left ">
+          <p class="font-bold mb-3">METALHMUR</p>
+          <p class="mb-3 max-w-xl h-20">
+            {textProjects.projects.project3}
+          </p>
+          <div class="projectView">
+            <span class="projectContent">
+              Astro
+            </span>
+            <span class="projectContent">
+              Tailwind CSS
+            </span>
+            <span class="projectContent">
+              TypeScript
+            </span>
+          </div>
+          <a href="https://metalhmur.com/">
             <span
               class="projectWebsite"
               >{textProjects.projects.website}</span

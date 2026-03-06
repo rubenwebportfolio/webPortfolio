@@ -16,9 +16,10 @@
     "four": "Contact"
   },
   "projects": {
-    "title": "Proyects",
+    "title": "Projects",
     "project1": "Website designed for a brand of crafts and custom vinyls.",
     "project2": "Official website for an independent video game development studio.",
+    "project3": "Corporate website for Metalhmur, a company specialized in metal structures.",
     "website": "View page"
   },
   "skills": {
@@ -37,7 +38,8 @@
   },
   "altImage": {
     "projectImg1": "Image from Uventic website",
-    "projectImg2": "Image from Frostcube Games website"
+    "projectImg2": "Image from Frostcube Games website",
+    "projectImg3": "Image from Metalhmur website"
   },
   "ariaLine": {
     "github": "Link to go to GitHub",

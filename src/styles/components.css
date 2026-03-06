@@ -93,7 +93,7 @@
 }
 
 .socialStructureChild {
-    @apply flex lg:flex-row flex-col justify-center gap-5 mx-3
+    @apply lg:grid lg:grid-cols-3 justify-center gap-5 mx-3 place-items-center 
 }
 
 .projectSection {
